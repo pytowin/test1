@@ -1,4 +1,5 @@
-#Egg game
+# Egg game
+# Graphic interface created in tkinter
 
 from itertools import cycle
 from random import randrange
