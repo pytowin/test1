@@ -4,6 +4,7 @@
 
 import random
 import time
+import re
 
 # Initial Steps to invite in the game:
 print("\nWelcome to Hangman game by IT SOURCECODE\n")
