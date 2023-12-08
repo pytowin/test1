@@ -1,5 +1,7 @@
 # Hangman game
 
+# Some improvements
+
 import random
 import time
 
