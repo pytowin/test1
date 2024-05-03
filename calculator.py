@@ -1,5 +1,5 @@
 # Simple calculator
-
+# Updating calculator
 # Some additional functionality will be added
 
 # This function adds two numbers
