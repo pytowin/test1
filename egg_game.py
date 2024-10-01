@@ -1,7 +1,5 @@
 # Egg game
 
-# Ok
-
 from itertools import cycle
 from random import randrange
 from tkinter import Canvas, Tk, messagebox, font
@@ -35,6 +33,7 @@ catcher = c.create_arc(catcher_startx, catcher_starty, catcher_startx2, catcher_
 game_font = font.nametofont("TkFixedFont")
 game_font.config(size=18)
 
+# Added comments here
 
 score = 0
 score_text = c.create_text(10, 10, anchor="nw", font=game_font, fill="darkblue", text="Score: "+ str(score))
@@ -82,6 +81,7 @@ def check_catch():
             c.delete(egg)
             increase_score(egg_score)
     root.after(100, check_catch)
+# Ok that would be it
 
 def increase_score(points):
     global score, egg_speed, egg_interval
@@ -99,6 +99,7 @@ def move_right(event):
     (x1, y1, x2, y2) = c.coords(catcher)
     if x2 < canvas_width:
         c.move(catcher, 20, 0)
+
 
 c.bind("<Left>", move_left)
 c.bind("<Right>", move_right)
