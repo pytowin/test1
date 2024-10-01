@@ -31,6 +31,9 @@ def main():
 
 # A loop to re-execute the game when the first round ends:
 
+def add_power(x, y):
+    return x + y*y
+
 def play_loop():
     global play_game
     play_game = input("Do You want to play again? y = yes, n = no \n")
