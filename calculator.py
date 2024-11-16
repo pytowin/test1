@@ -1,4 +1,4 @@
-# Simple calculator
+# Ja pierd
 # Updating calculator
 # Some additional functionality will be added
 
