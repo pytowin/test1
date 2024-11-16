@@ -33,7 +33,7 @@ catcher = c.create_arc(catcher_startx, catcher_starty, catcher_startx2, catcher_
 game_font = font.nametofont("TkFixedFont")
 game_font.config(size=18)
 
-# Added comments here
+# Added ok ok
 
 score = 0
 score_text = c.create_text(10, 10, anchor="nw", font=game_font, fill="darkblue", text="Score: "+ str(score))
